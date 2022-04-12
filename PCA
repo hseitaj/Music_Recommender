@@ -1,2 +1,35 @@
 #import the libraries
 #import the data set and apply PCA
+#Spotipy Web API
+#https://github.com/nathanwilthomas/Spotify_KNN/blob/master/Spotify%20KNN.ipynb
+#implement the link above
+
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+import pandas as pd
+from datetime import datetime
+import numpy as np
+import seaborn as sns
+import plotly.express as px
+import math
+
+
+client_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+
+client_credentials_manager = SpotifyClientCredentials(client_id = client_id, client_secret = client_secret)
+
+sp_query = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+
+# Set up query with credentials
+sp = spotipy.Spotify(
+            client_credentials_manager=SpotifyClientCredentials(
+            client_id=client_id,
+            client_secret=client_secret))
+
+url_jazz = 'spotify:playlist:4RX5Fi21BPhwvBuyNyX2QH'
+url_hiphop = 'spotify:playlist:3wgMzHp2YD4VNJLGOSRmPl'
