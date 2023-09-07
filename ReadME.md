@@ -32,10 +32,4 @@ Interested in making a difference? Submit a pull request or open an issue on the
 📜 License
 Licensed under the terms of the MIT license. Check the LICENSE file in the repository for details.
 
-📧 Contact
-For inquiries or feedback:
-
-Hansi Seitaj: email_address
-Eni Vejseli: email_address
-Andrew Kozempel: email_address
 🙏 Thanks for your interest in the Music Recommender project! Let's amplify the vibes together.
